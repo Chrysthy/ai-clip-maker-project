@@ -1,0 +1,13 @@
+{
+    "chat.fontSize": 18,
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 14,
+    "zenMode.hideActivityBar": true,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": true,
+    "zenMode.showTabs": "none",
+    "zenMode.silentNotifications": true,
+    "editor.minimap.enabled": false,
+    "chat.tools.terminal.outputLocation": "chat"
+}
