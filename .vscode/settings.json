@@ -1,6 +1,4 @@
 {
-    "chat.fontSize": 18,
-    "editor.fontSize": 18,
     "terminal.integrated.fontSize": 14,
     "zenMode.hideActivityBar": true,
     "zenMode.centerLayout": false,
