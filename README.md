@@ -41,17 +41,24 @@
 
 - HTML5  
 - CSS3/Tailwind  
-- JavaScript (Vanilla)  
+- JavaScript (Vanilla)
+- Cloudinary
 - Gemini
 - Git and GitHub
 
 <br>
 
+## ✨ Features
+
+- This system allows users to upload a video through the frontend.  
+- The video is processed using Cloudinary, transcribed using AI, and analyzed to automatically select the best clips.  
+- Finally, the system generates a "viral" shortened video.
+
+<br>
+
+
 ## How It Works
 
-This system allows users to upload a video through the frontend.  
-The video is processed using Cloudinary, transcribed using AI, and analyzed to automatically select the best clips.  
-Finally, the system generates a shortened video ready for download.
 
 ```mermaid
 flowchart TD
