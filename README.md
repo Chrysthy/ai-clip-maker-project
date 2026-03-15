@@ -56,25 +56,77 @@
 
 <br>
 
+## ⚙ How to Run
 
-## How It Works
+### 📋 Requirements
+
+- [Git](https://git-scm.com/)
+  
+<br>
+
+### 👣 Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Chrysthy/ai-clip-maker.git
+   cd ai-clip-maker
+   ```
+   
+
+2. **Open in your browser**:
+
+   ```
+   http://localhost:3030
+   ```
+   
+### 🔐 API Configuration
+
+This project requires a valid **Google API key** to function properly.
+
+1. **Get your API Key**:  
+   - Go to [Google Cloud Console](https://console.cloud.google.com/)
+   - Create a new project (or use an existing one)
+   - Generate an API key
+
+<br>
+
+### Architecture Overview
 
 
 ```mermaid
 flowchart TD
-    User[User]
-    Frontend[Frontend<br/>index.html + CSS + JavaScript]
-    Cloudinary[Cloudinary<br/>Upload and storage]
-    Transcription[Video Transcription]
-    AI[Google AI<br/>Content analysis]
-    ClipSelection[Clip Selection]
-    FinalVideo[Final Edited Video]
-    Download[Download]
 
-    User --> Frontend
-    Frontend -->|Upload video| Cloudinary
-    Cloudinary --> Transcription
-    Transcription --> AI
-    AI --> ClipSelection
-    ClipSelection --> FinalVideo
-    FinalVideo --> Download
+Frontend["index.html<br/>css<br/>javascript<br/>..."]
+
+Cloudinary["cloudinary"]
+
+Upload["upload"]
+Transcription["transcrição"]
+DownloadVideo["baixar o vídeo cortado"]
+
+URL["url"]
+Download["baixar"]
+
+AI["Google IA"]
+
+Selection["a seleção do corte"]
+
+Interface["apresenta o vídeo<br/>cortado na interface"]
+
+Frontend -->|botao| Cloudinary
+
+Cloudinary --> Upload
+Cloudinary --> Transcription
+Cloudinary --> DownloadVideo
+
+Cloudinary -.-> URL
+URL -.-> Download
+Download -.->|leia| AI
+
+AI --> Selection
+Selection --> Interface
+```
+
+
+
