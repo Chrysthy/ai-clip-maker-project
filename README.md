@@ -37,6 +37,16 @@
 
 <br>
 
+## 🛠 Technologies
+
+- HTML5  
+- CSS3/Tailwind  
+- JavaScript (Vanilla)  
+- Gemini
+- Git and GitHub
+
+<br>
+
 ## How It Works
 
 This system allows users to upload a video through the frontend.  
