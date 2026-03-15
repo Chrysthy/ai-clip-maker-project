@@ -31,6 +31,12 @@
 
 <br>
 
+## 📸 Screenshots
+
+<img src=".github/gif-do-projeto.gif" alt="gif do projeto">
+
+<br>
+
 ## How It Works
 
 This system allows users to upload a video through the frontend.  
