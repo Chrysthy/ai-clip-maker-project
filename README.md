@@ -1,5 +1,7 @@
 <h1 align=center> AI Clip Maker 🎞</h1>
 
+<p align="center">Turn long videos into viral short clips using AI.</p>
+
 <p align="center">
 <a href="#-live-demo">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -63,7 +65,9 @@
 
 ### 📋 Requirements
 
-- [Git](https://git-scm.com/)
+- Git
+- A web browser
+- Google API Key
   
 <br>
 
@@ -72,7 +76,7 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Chrysthy/ai-clip-maker.git
+   git clone https://github.com/Chrysthy/ai-clip-maker-project.git
    cd ai-clip-maker
    ```
    
@@ -80,7 +84,8 @@
 2. **Open in your browser**:
 
    ```
-   http://localhost:3030
+   index.html
+   http://localhost:8000
    ```
    
 ### 🔐 API Configuration
@@ -94,7 +99,7 @@ This project requires a valid **Google API key** to function properly.
 
 <br>
 
-### Architecture Overview
+### 🏗️ Architecture Overview
 
 
 ```mermaid
