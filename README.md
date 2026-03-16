@@ -23,7 +23,7 @@
 ## 🌐 Live Demo
 
 <p align="center">
-  <a href="https://ai-code-analyzer-wejp.onrender.com">
+  <a href="https://chrysthy.github.io/ai-clip-maker-project/">
     <img src="https://img.shields.io/badge/Live%20Demo-GitHub-success?labelColor=black" />
   </a>
 </p>
